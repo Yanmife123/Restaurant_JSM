@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-base: "Cormorant Upright", serif;
+  --font-alt: "Open Sans", sans-serif;
+
+  --color-golden: #dcca87;
+  --color-black: #0c0c0c;
+  --color-gray: #545454;
+  --color-crimson: #f5efdb;
+  --color-grey: #aaaaaa;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.app__bg {
+  background: url(assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.link__transition::after {
+  content: " ";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-golden);
+  transition: width 0.3s ease-in-out;
+}
+.link__transition:hover::after {
+  width: 100%;
+}
+.link__opening {
+  animation: up-down 0.5s ease-in-out;
+}
+
+@keyframes up-down {
+  0% {
+    top: -100px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .flex__center {
+    @apply flex justify-center items-center;
+  }
+  .paddingX {
+    @apply sm:px-10 px-6;
+  }
+  .boxWidth {
+    @apply xl:max-w-[1280px] w-full;
+  }
+  .paddingY {
+    @apply sm:py-16 py-6;
+  }
+}
+
+@layer component {
+  .paragraph {
+    @apply lg:text-[14px] text-[16px] font-normal font-alt text-grey leading-[28px];
+  }
+  .heading {
+    @apply text-[50px] font-base text-golden leading-[70px] font-semibold;
+  }
+}
