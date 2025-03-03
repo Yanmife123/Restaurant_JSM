@@ -37,10 +37,10 @@ const Hero = () => {
               <Button text={`Explore Menu`} style={`mt-1`} />
             </div>
           </div>
-          <div className="flex flex-1 md:justify-start justify-center">
+          <div className="flex flex-1  justify-center">
             <img
               src={images.welcome}
-              alt=""
+              alt="Welcome"
               className="lg:w-[100%] w-[90%] h-[100%] object-contain"
             />
           </div>

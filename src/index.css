@@ -80,7 +80,7 @@
 
 @layer component {
   .paragraph {
-    @apply lg:text-[14px] text-[16px] font-normal font-alt text-grey leading-[28px];
+    @apply lg:text-[15px] text-[16px] font-normal font-alt text-grey leading-[28px];
   }
   .heading {
     @apply text-[50px] font-base text-golden leading-[70px] font-semibold;

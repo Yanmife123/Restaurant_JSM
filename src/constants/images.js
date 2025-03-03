@@ -22,7 +22,8 @@ import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
 import hamMenu from "../assets/hamMenu.svg";
 import Favicon from "../assets/favicon.ico";
-
+import Play from "../assets/Play.png";
+import pause from "../assets/pause-circle.svg";
 export default {
   bg,
   chef,
@@ -48,4 +49,6 @@ export default {
   gericht,
   hamMenu,
   Favicon,
+  Play,
+  pause,
 };

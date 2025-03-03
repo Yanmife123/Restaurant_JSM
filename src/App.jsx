@@ -1,4 +1,4 @@
-import { AboutUs, Hero, Menu, NavBar } from "./components";
+import { AboutUs, Chef, Hero, Intro, Menu, NavBar } from "./components";
 
 function App() {
   return (
@@ -19,6 +19,12 @@ function App() {
         </div>
         <div className="flex flex-col items-center bg-black">
           <Menu />
+        </div>
+        <div className="flex flex-col items-center app__bg">
+          <Chef />
+        </div>
+        <div className="">
+          <Intro />
         </div>
       </div>
     </div>
