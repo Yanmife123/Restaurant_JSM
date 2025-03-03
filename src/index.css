@@ -13,13 +13,18 @@
   --color-grey: #aaaaaa;
   --color-white: #ffffff;
 }
-
 * {
   margin: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
+.menu__bg {
+  background: url(assets/menu.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .app__bg {
   background: url(assets/bg.png);
   background-position: center;
@@ -79,5 +84,8 @@
   }
   .heading {
     @apply text-[50px] font-base text-golden leading-[70px] font-semibold;
+  }
+  .sectionCenter {
+    @apply flex justify-center w-full items-center;
   }
 }

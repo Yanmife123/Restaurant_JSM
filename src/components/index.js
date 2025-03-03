@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import Hero from "./Hero";
 import AboutUs from "./About";
-import Spoon from "./spoon";
+import Menu from "./Menu";
 
-export { NavBar, Hero, AboutUs, Spoon };
+export { NavBar, Hero, AboutUs, Menu };

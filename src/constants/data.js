@@ -62,21 +62,21 @@ const navLinks = [
     title: "Home",
   },
   {
-    id: "pages",
-    title: "Pages",
+    id: "about",
+    title: "About",
   },
   {
-    id: "contact",
-    title: "Contact Us",
+    id: "menu",
+    title: "Menu",
   },
   {
-    id: "blog",
-    title: "Blog",
+    id: "awards",
+    title: "Awards",
   },
 
   {
-    id: "landing",
-    title: "Landing",
+    id: "contact",
+    title: "Contact",
   },
 ];
 const awards = [

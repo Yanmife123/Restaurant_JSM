@@ -48,7 +48,7 @@ const NavBar = () => {
             <img
               src={images.Favicon}
               alt=""
-              className="w-[30px] h-[30px] absolute right-[40px] top-3"
+              className=" md:w-[40px] md:h-[40px] w-[30px] h-[30px] absolute right-[40px] top-3"
               onClick={() => {
                 setToggleMenu(false);
               }}
@@ -57,7 +57,7 @@ const NavBar = () => {
               {data.navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className="font-alt text-1 font-semibold text-golden"
+                  className="font-alt  md:text-[24px]   text-[18px] font-semibold text-golden"
                 >
                   <a
                     href={`#${link.id}`}

@@ -4,8 +4,8 @@ import Spoon from "./spoon";
 
 const AboutUs = () => {
   return (
-    <section className="paddingY flex boxWidth z-1 relative" id="AboutUs">
-      <div className="flex justify-center w-full items-center">
+    <section className="paddingY flex boxWidth z-1 relative" id="about">
+      <div className="sectionCenter">
         <div className="flex lg:flex-row flex-col lg:w-[80%] w:full xl:max-w-[1080px] p-3 lg:gap-0 gap-[30px] z-2">
           <div className="flex flex-2 flex-col justify-center gap-4 lg:items-end items-center">
             <div className="flex flex-col lg:items-end items-center">

@@ -1,4 +1,4 @@
-import { AboutUs, Hero, NavBar } from "./components";
+import { AboutUs, Hero, Menu, NavBar } from "./components";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
           <NavBar />
         </div>
       </header>
-      <div className="paddingX pb-18 bg-black">
+      <div className="paddingX pb-18 bg-black flex justify-center">
         <div className="boxWidth">
           <Hero />
         </div>
@@ -16,6 +16,9 @@ function App() {
       <div className="">
         <div className="flex flex-col items-center app__bg">
           <AboutUs />
+        </div>
+        <div className="flex flex-col items-center bg-black">
+          <Menu />
         </div>
       </div>
     </div>
