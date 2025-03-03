@@ -20,7 +20,7 @@ const Menu = () => {
             <h3 className="text-white font-semibold font-base leading-[50px] text-[37px] text-center">
               Wine & Beer
             </h3>
-            <div className="flex flex-col gap-[25px] lg:w-full w-[90%] max-w-[400px]">
+            <div className="flex flex-col gap-[25px] lg:w-full w-[85%] max-w-[400px]">
               {data.wines.map((wine) => (
                 <MenuData key={wine.title} {...wine} />
               ))}
@@ -30,14 +30,14 @@ const Menu = () => {
             <img
               src={images.menu}
               alt="Menu"
-              className="lg:h-[100%] lg:w-[90%] h-[600px] w-[400px] object-contain"
+              className="lg:h-[100%] lg:w-[90%] h-[600px] w-[380px] object-contain object-left"
             />
           </div>
           <div className="flex-1 flex flex-col items-center justify-center">
             <h3 className="text-white font-semibold font-base leading-[50px] text-[37px] text-center lg:mt-0 mt-5">
               Cocktails
             </h3>
-            <div className="flex flex-col gap-[25px] lg:w-full w-[90%] max-w-[400px]">
+            <div className="flex flex-col gap-[25px] lg:w-full w-[85%] max-w-[400px]">
               {data.cocktails.map((cocktail) => (
                 <MenuData key={cocktail.title} {...cocktail} />
               ))}
