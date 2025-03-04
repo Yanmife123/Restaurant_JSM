@@ -23,7 +23,7 @@ const Contact = () => {
               </h2>
             </div>
             <div className="flex flex-col gap-6">
-              <p className="paragraph">
+              <p className="paragraph md:text-start text-center">
                 Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG
               </p>
               <div className="flex flex-col gap-4 md:items-start items-center">
