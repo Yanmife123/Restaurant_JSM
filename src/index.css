@@ -14,7 +14,6 @@
   --color-white: #ffffff;
 }
 * {
-  margin: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
@@ -74,7 +73,7 @@
     @apply xl:max-w-[1280px] w-full;
   }
   .paddingY {
-    @apply sm:py-16 py-6;
+    @apply sm:py-16 py-8;
   }
 }
 

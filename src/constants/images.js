@@ -24,6 +24,7 @@ import hamMenu from "../assets/hamMenu.svg";
 import Favicon from "../assets/favicon.ico";
 import Play from "../assets/Play.png";
 import pause from "../assets/pause-circle.svg";
+
 export default {
   bg,
   chef,

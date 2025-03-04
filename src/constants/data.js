@@ -101,5 +101,23 @@ const awards = [
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];
+const gallery = [
+  {
+    id: 1,
+    img: images.gallery04,
+  },
+  {
+    id: 2,
+    img: images.gallery03,
+  },
+  {
+    id: 3,
+    img: images.gallery02,
+  },
+  {
+    id: 4,
+    img: images.gallery01,
+  },
+];
 
-export default { wines, cocktails, awards, navLinks };
+export default { wines, cocktails, awards, navLinks, gallery };

@@ -4,5 +4,8 @@ import AboutUs from "./About";
 import Menu from "./Menu";
 import Chef from "./Chef";
 import Intro from "./Intro";
+import Laurel from "./Laurel";
+import Gallery from "./Gallery";
+import Contact from "./Contact";
 
-export { NavBar, Hero, AboutUs, Menu, Chef, Intro };
+export { NavBar, Hero, AboutUs, Menu, Chef, Intro, Laurel, Gallery, Contact };

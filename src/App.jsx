@@ -1,4 +1,14 @@
-import { AboutUs, Chef, Hero, Intro, Menu, NavBar } from "./components";
+import {
+  AboutUs,
+  Chef,
+  Contact,
+  Gallery,
+  Hero,
+  Intro,
+  Laurel,
+  Menu,
+  NavBar,
+} from "./components";
 
 function App() {
   return (
@@ -23,8 +33,17 @@ function App() {
         <div className="flex flex-col items-center app__bg">
           <Chef />
         </div>
-        <div className="">
+        <div>
           <Intro />
+        </div>
+        <div className="flex flex-col items-center app__bg relative">
+          <Laurel />
+        </div>
+        <div className="flex bg-black">
+          <Gallery />
+        </div>
+        <div className="flex flex-col items-center app__bg">
+          <Contact />
         </div>
       </div>
     </div>
