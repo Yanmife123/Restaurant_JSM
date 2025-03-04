@@ -15,7 +15,7 @@ const Gallery = () => {
             <h2 className="heading">Photo Gallery</h2>
           </div>
           <div className="flex flex-col gap-[24px] mt-2 md:items-start items-center ">
-            <p className="paragraph md:w-[90%] w-full">
+            <p className="paragraph md:w-[90%] w-full md:text-start text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
               mattis ipsum turpis elit elit scelerisque egestas mu.
             </p>
