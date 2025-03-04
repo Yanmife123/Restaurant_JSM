@@ -2,12 +2,14 @@ import {
   AboutUs,
   Chef,
   Contact,
+  Footer,
   Gallery,
   Hero,
   Intro,
   Laurel,
   Menu,
   NavBar,
+  NewsLetter,
 } from "./components";
 
 function App() {
@@ -42,8 +44,12 @@ function App() {
         <div className="flex bg-black">
           <Gallery />
         </div>
-        <div className="flex flex-col items-center app__bg">
+        <div className="flex flex-col items-center app__bg relative z-1">
           <Contact />
+        </div>
+        <div className="flex flex-col items-center app__bg relative z-1">
+          <NewsLetter />
+          <Footer />
         </div>
       </div>
     </div>

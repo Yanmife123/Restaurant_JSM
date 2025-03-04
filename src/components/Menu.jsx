@@ -15,7 +15,7 @@ const Menu = () => {
           </div>
           <h2 className="heading">Today’s Special</h2>
         </div>
-        <div className=" flex lg:flex-row flex-col lg:w-[80%] w:full lg:pt-15 pt-8">
+        <div className=" flex lg:flex-row flex-col lg:w-[80%] w-full lg:pt-15 pt-8">
           <div className="flex-1 flex flex-col justify-center items-center">
             <h3 className="text-white font-semibold font-base leading-[50px] text-[37px] text-center">
               Wine & Beer

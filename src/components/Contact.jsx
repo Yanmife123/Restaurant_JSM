@@ -4,9 +4,9 @@ import Spoon from "./spoon";
 
 const Contact = () => {
   return (
-    <section className="paadingY flex boxWidth" id="contact">
+    <section className="paddingY flex boxWidth" id="contact">
       <div className="sectionCenter">
-        <div className="flex md:flex-row flex-col-reverse lg:w-[80%] w:full xl:max-w-[1080px] p-3 md:justify-between justify-normal">
+        <div className="flex md:flex-row flex-col-reverse lg:w-[80%] w-full xl:max-w-[1080px] p-3 md:justify-between justify-normal z-3">
           <div
             className="flex flex-col flex-1 justify-center md:items-start  
          items-center md:py-0 py-8 gap-[40px]"
@@ -47,6 +47,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <div className="md:block hidden absolute right-0 top-0  h-full z-2 bg-black lg:w-[20%] md:w-[13vw]"></div>
     </section>
   );
 };

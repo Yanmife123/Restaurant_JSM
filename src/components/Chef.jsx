@@ -5,7 +5,7 @@ const Chef = () => {
   return (
     <section className="paddingY flex boxWidth">
       <div className="sectionCenter">
-        <div className="flex md:flex-row flex-col lg:w-[80%] w:full xl:max-w-[1080px] p-3 md:justify-between justify-normal">
+        <div className="flex md:flex-row flex-col lg:w-[80%] w-full xl:max-w-[1080px] p-3 md:justify-between justify-normal">
           <div className="flex flex-1 md:justify-start justify-center">
             <img
               src={images.chef}

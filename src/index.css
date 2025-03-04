@@ -61,6 +61,9 @@
     opacity: 1;
   }
 }
+.new__letter__boxShadow {
+  box-shadow: 22px 30px 95px 1px #000000b2;
+}
 
 @layer utilities {
   .flex__center {
@@ -76,7 +79,6 @@
     @apply sm:py-16 py-8;
   }
 }
-
 @layer component {
   .paragraph {
     @apply lg:text-[15px] text-[16px] font-normal font-alt text-grey leading-[28px];

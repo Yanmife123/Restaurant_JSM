@@ -24,6 +24,9 @@ import hamMenu from "../assets/hamMenu.svg";
 import Favicon from "../assets/favicon.ico";
 import Play from "../assets/Play.png";
 import pause from "../assets/pause-circle.svg";
+import Facebook from "../assets/Facebook.png";
+import Twitter from "../assets/Twitter.png";
+import Instagram from "../assets/Instagram.png";
 
 export default {
   bg,
@@ -52,4 +55,7 @@ export default {
   Favicon,
   Play,
   pause,
+  Facebook,
+  Twitter,
+  Instagram,
 };
