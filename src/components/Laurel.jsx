@@ -21,7 +21,7 @@ const Laurel = () => {
       <div className="sectionCenter lg:mt-0 md:mt-9 mt-5">
         <div className="flex md:flex-row flex-col lg:w-[80%] w:full xl:max-w-[1080px] p-3 md:justify-between justify-normal md:gap-0 gap-12">
           <div className="flex-1 flex gap-[40px] flex-col md:items-start items-center justify-center">
-            <div className="flex flex-col items-start">
+            <div className="flex flex-col md:items-start items-center">
               <p className="font-base md:text-base text-[18px] text-white font-bold mb-2">
                 Awards & recognition
               </p>
